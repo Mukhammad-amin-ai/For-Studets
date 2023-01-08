@@ -32,6 +32,7 @@ export const Register = () => {
             }
         })
         let response = await jsons.data
+        console.log(response)
         setData(response)
     }
     useEffect(() => {

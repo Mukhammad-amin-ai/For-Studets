@@ -69,6 +69,48 @@
       "name": "Ozodbek",
       "lastname": "Ozodbek",
       "id": 10
+    },
+    {
+      "email": "ibragimbashatov@gmail.com",
+      "password": "$2a$10$yKHT56In7WaaeMZUyqchGudu7GpBNKx3oPNNUokaD8LXhniO7A8x6",
+      "name": "Ibragim",
+      "lastname": "Ibragim",
+      "id": 11
+    },
+    {
+      "email": "dostonqudratov@gmail.com",
+      "password": "$2a$10$lbYu6lSmnD321la4d.g65erEZx8KI0R94/HK3HZXIs/FZWE9y7BBK",
+      "name": "Doston",
+      "lastname": "Doston",
+      "id": 12
+    },
+    {
+      "email": "sanjar@gmail.com",
+      "password": "$2a$10$Wa5rfoRjKQmvpT4E4NEsS.0HRIbgNkGpsDSW0319PQ6uvMroR8hQ.",
+      "name": "Sanjar",
+      "lastname": "Sanjar",
+      "id": 13
+    },
+    {
+      "email": "zara@gmail.com",
+      "password": "$2a$10$N1WKFCn7MI4WdMZwL/QcbexgkZQ/0TTtRfJoumVi.MxNN1kPgTJJ2",
+      "name": "Zara",
+      "lastname": "Zara",
+      "id": 14
+    },
+    {
+      "email": "ushagap@gmail.com",
+      "password": "$2a$10$Kxr811lSaJbM7irfBJBXQu27TFIVczYWl4hSv0kxbVFwiRDR5uag.",
+      "name": "Usha gap",
+      "lastname": "usha gap",
+      "id": 15
+    },
+    {
+      "email": "munisbek@gmail.com",
+      "password": "$2a$10$U58F8J8f3b.uWQ43r9kvlOecynyMnyL6gJcRsfwJAppDOhofO/LqO",
+      "name": "Munisbek",
+      "lastname": "Munisbek",
+      "id": 16
     }
   ]
 }

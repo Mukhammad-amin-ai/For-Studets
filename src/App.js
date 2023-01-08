@@ -7,7 +7,6 @@ import { BoshSahifa} from "./Default_Header";
 import { Context } from "./Context";
 function App() {
   let parses = window.localStorage.getItem("user_server_token")
-  console.log(parses)
   const [token, setToken] = useState(parses !== null? parses: null)
   useEffect(() => {
     if(token !== null){
@@ -21,9 +20,17 @@ function App() {
       window.localStorage.setItem("user_login_server", JSON.stringify(userLogin))
     }
   },[userLogin])
+  const [data, setData] = useState([])
+  const [activePage, setActivePage] = useState(1)
+  const [name, setName] = useState("")
+  const [status, setStatus]  = useState("")
+  const [gender, setGender] = useState("")
+  const [species, setSpecies] = useState("")
+  const [episodeNumber, setEpisodeNumber] = useState(1)
+  const [locationNumber, setLocationNumber] = useState(1)
   return (
     <div className="App">
-      <Context.Provider value={{token, setToken, userLogin, setUserLogin}}>
+      <Context.Provider value={{gender, species, setSpecies, locationNumber, setLocationNumber, setGender,status, setStatus,token, name, episodeNumber, setEpisodeNumber, setName,  setToken, activePage, setActivePage,  userLogin, setUserLogin, data, setData}}>
         <Routes>
           <Route path="/*" element={token !== null? <Main/> : <DefaultHeader/>}>
           </Route>

@@ -1,9 +1,11 @@
 import { Col, Row, Typography } from "antd"
 import axios from "axios"
 import { useContext, useRef, useState } from "react"
+import { useNavigate } from "react-router"
 import { Context } from "../../Context"
 const {Title}  = Typography
 export const Login = () => {
+    const navigator = useNavigate()
     const {setUserLogin, setToken} = useContext(Context)
     const [errorEmail, setErrorEmail] = useState("Emailni to'ldiring")
     const [passwordError, setPasswordError] = useState("Passwordni to'ldiring")
@@ -24,6 +26,7 @@ export const Login = () => {
             console.log(response.data)
             setToken(accessToken)
             setUserLogin(user)
+            navigator("/")
         }).catch((error) => {
             if(error.name === "AxiosError"){
                 throw(error)
