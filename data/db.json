@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "email": "shohijahonmusinkulov@gmail.com",
+      "password": "$2a$10$bsTYt0ISa8sObrtZRCFP..1DA/F6inADlQv.HTzeIQgisTO/G.YYW",
+      "name": "Shohijahon",
+      "lastname": "Shohijahon",
+      "id": 1
+    },
+    {
+      "email": "messi@gmail.com",
+      "password": "$2a$10$cHPXwm9XJougImCEUeBHOu5st6qOddLyr8dMNeBCKgKvlSdARLDcq",
+      "name": "Messi",
+      "lastname": "Messi",
+      "id": 2
+    },
+    {
+      "email": "pele@gmail.com",
+      "password": "$2a$10$zUw.Zmm9pYPa7G87gEDeuOHk5.zA/ZZAcRBgbTHo56dsvB3cMkw5W",
+      "name": "Pele",
+      "lastname": "Pele",
+      "id": 3
+    },
+    {
+      "email": "azam@gmail.com",
+      "password": "$2a$10$.NXdqTnJp0pw4ELrmLv0auiwEavAvdzJXUteCbF3.CkZIfF/lVfCm",
+      "name": "Azam",
+      "lastname": "Azam",
+      "id": 4
+    },
+    {
+      "email": "kimmich@gmail.com",
+      "password": "$2a$10$3eoGuXrOqi.OjY113bJhkOJBUAYrDuZDZE7mo9WvUzzJmk1gKUomq",
+      "name": "kimmich",
+      "lastname": "kimmich",
+      "id": 5
+    },
+    {
+      "email": "inesta@gmail.com",
+      "password": "$2a$10$g3XDdQkBzhhHZSvM44oQren2QzS77V8t1emuvzSTGF9Okgi6bIjJe",
+      "name": "inesta",
+      "lastname": "inesta",
+      "id": 6
+    },
+    {
+      "email": "xaxi@gmail.com",
+      "password": "$2a$10$Ae5RdzvPYIB76Tehq63vYOKNW7qzWc1mpTRLQu5SnGBwWovffa8WC",
+      "name": "xavi",
+      "lastname": "xavi",
+      "id": 7
+    },
+    {
+      "email": "dilnura@gmail.com",
+      "password": "$2a$10$hGRLu87UL.1b3RIzizseqeDwfPfGtoHnGKaXfDaRZmLha9qfPWvPW",
+      "name": "Dilnura",
+      "lastname": "Dilnura",
+      "id": 8
+    },
+    {
+      "email": "griezman@gmail.com",
+      "password": "$2a$10$On4ioBK2F7aDFijFyyn2h.NMxQ/2ExK1sBjOCT.blYxlWalX7FlbG",
+      "name": "Griezman",
+      "lastname": "Griezman",
+      "id": 9
+    },
+    {
+      "email": "ozodbekbegmatov@gmail.com",
+      "password": "$2a$10$wwD1qDcSw.4y8J9hAdcAOub3sqmU3/FkHh/9B40zTFugcTV/WH3R6",
+      "name": "Ozodbek",
+      "lastname": "Ozodbek",
+      "id": 10
+    }
+  ]
+}
