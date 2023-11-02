@@ -111,6 +111,13 @@
       "name": "Munisbek",
       "lastname": "Munisbek",
       "id": 16
+    },
+    {
+      "email": "amin@gmail.com",
+      "password": "$2a$10$1gRbzlY6FzqwOq7fUpZM..PR/ygTfJ6f8/a6.WBt6/copHQuoMvKa",
+      "name": "amin",
+      "lastname": "amin",
+      "id": 17
     }
   ]
 }
